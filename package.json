@@ -1,0 +1,22 @@
+{
+  "name": "raw-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jero <aneurysmjs@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "bootstrap": "5.0.0-alpha1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "4.1.2",
+    "cz-conventional-changelog": "3.2.0"
+  }
+}
